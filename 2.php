@@ -57,7 +57,7 @@ text-align: center;
       <div class="starter-template">
         <h1>Soal 2</h1>
         <form action="" method="post">
-         <label for="">Input Angka  : </label><input class="form-control" type="text" name="angka" value="" placeholder="Contoh : 19,22,3,28,26,17"> <br>
+         <label for="">Input Angka  : </label><input class="form-control" type="text" name="angka" value="" placeholder="Contoh : 19,22,3,28,26,17" required> <br>
          <button type="submit" class="btn btn-success" name="submit">Oke</button>
        </form> <br>
        <?php

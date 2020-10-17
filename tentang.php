@@ -10,13 +10,13 @@ padding: 3rem 1.5rem;
 text-align: center;
 }
     </style>
+    <link rel="icon" href="favicon.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link rel="icon" href="favicon.png">
-    <title>Soal Nomer 1 By Nu'man Elfaqih</title>
+    <title>Tentang</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -34,18 +34,18 @@ text-align: center;
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.php">Beranda</a>
+            <a class="nav-link" href="index.php">Beranda <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="tentang.php">Tentang</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Soal</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item active" href="1.php">Soal 1</a>
+              <a class="dropdown-item" href="1.php">Soal 1</a>
               <a class="dropdown-item" href="2.php">Soal 2</a>
               <a class="dropdown-item" href="3.php">Soal 3</a>
-              <a class="dropdown-item" href="4a.php">Soal 4A</a>
+              <a class="dropdown-item " href="4a.php">Soal 4A</a>
               <a class="dropdown-item" href="4b.php">Soal 4B</a>
             </div>
           </li>
@@ -56,42 +56,8 @@ text-align: center;
     <main role="main" class="container">
 
       <div class="starter-template">
-        <h1>Soal 1</h1>
-        <form action="" method="post">
-         <label for="">Input Angka Ganjil : </label><input class="form-control" type="text" name="angka" value="" required> <br>
-         <button type="submit" class="btn btn-success" name="submit">Oke</button>
-       </form> <br>
-        <?php
-        function cetak_gambar($param){
-          if ($param % 2 == 0) {
-            echo "<script>alert('Angka yang Anda masukkan adalah angka genap, angka harus ganjil');window.location = '1.php';</script>";
-          }else {
-            $middleVal = floor(($param - 1) / 2);
-
-            for ($j=0; $j < $param; $j++) {
-              if ($j == $middleVal) {
-                for ($c=0; $c < $param; $c++) {
-                  echo "* ";
-                }
-                echo "<br>";
-              }else {
-                for ($i=0; $i < $param; $i++) {
-                  if ($i==0 || $i == $param-1) {
-                      echo "* ";
-                  }else{
-                      echo "= ";
-                  }
-                }
-                echo "<br>";
-              }
-            }
-          }
-        }
-        if(isset($_POST['submit'])){
-          $angka = $_POST['angka'];
-          cetak_gambar($angka);
-        }
-         ?>
+        <h1>Nama Saya Nu'man Elfaqih</h1>
+        <p class="lead">Sekian dan Terima Kasih</p>
       </div>
 
     </main><!-- /.container -->

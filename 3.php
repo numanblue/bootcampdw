@@ -58,7 +58,7 @@ text-align: center;
       <div class="starter-template">
         <h1>Soal 3</h1>
         <form action="" method="post">
-          <label for="">Masukkan String  : </label><input class="form-control" type="text" name="inistring" value="" placeholder="Contoh : dfdfdgdfggdbfgzzsdaad"> <br>
+          <label for="">Masukkan String  : </label><input class="form-control" type="text" name="inistring" value="" placeholder="Contoh : dfdfdgdfggdbfgzzsdaad" required> <br>
           <button type="submit" class="btn btn-success" name="submit">Oke</button>
         </form>
         <?php
