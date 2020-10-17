@@ -1,5 +1,5 @@
 # BootCamp DW By Nu'man Elfaqih
-Ujian Bootcamp DumbWay
+Ujian Bootcamp DumbWays
 
 Source Code ini menggunakan bahasa pemrograman PHP
 
